@@ -1,0 +1,53 @@
+1. Ndtv.com
+IP Address: 104.100.52.157
+
+Geolocation: 
+
+Akamai Technologies, Inc.
+Location	Santa Clara, California, United States of America
+AS	AS16625
+AS name	Akamai Technologies, Inc.
+
+2. bbc.com
+
+Ip Address : 151.101.192.81
+
+Geolocation: 
+
+Fastly, Inc.
+Location	San Francisco, California, United States of America
+AS	AS54113
+AS name	Fastly, Inc.
+
+3. ircc.com
+
+IP Address: 104.21.62.188
+
+Geolocation:
+
+Cloudflare, Inc.
+Location	San Francisco, California, United States of America
+AS	AS13335
+AS name	Cloudflare, Inc.
+
+4. instagram.com
+IP Address: 157.240.22.174
+
+Geolocation: 
+
+Facebook, Inc.
+Location	Santa Clara, California, United States of America
+AS	AS32934
+AS name	Facebook, Inc.
+
+
+5. whatsapp.com
+
+IP Address: 157.240.22.53
+
+Geolocation: 
+
+Facebook, Inc.
+Location	Santa Clara, California, United States of America
+AS	AS32934
+AS name	Facebook, Inc.

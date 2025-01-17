@@ -1,0 +1,29 @@
+root@comp3134-Winter2025:~# ping nba.com
+PING nba.com (23.222.17.231) 56(84) bytes of data.
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=1 ttl=57 time=1.93 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=2 ttl=57 time=1.10 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=3 ttl=57 time=1.17 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=4 ttl=57 time=1.15 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=5 ttl=57 time=1.11 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=6 ttl=57 time=1.17 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=7 ttl=57 time=1.11 ms
+^C
+--- nba.com ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6010ms
+rtt min/avg/max/mdev = 1.102/1.247/1.929/0.279 ms
+root@comp3134-Winter2025:~# ping nba.com -w 10
+PING nba.com (23.222.17.231) 56(84) bytes of data.
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=1 ttl=57 time=1.75 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=2 ttl=57 time=1.11 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=3 ttl=57 time=1.12 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=4 ttl=57 time=1.08 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=5 ttl=57 time=1.12 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=6 ttl=57 time=1.11 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=7 ttl=57 time=1.08 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=8 ttl=57 time=1.13 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=9 ttl=57 time=1.08 ms
+64 bytes from a23-222-17-231.deploy.static.akamaitechnologies.com (23.222.17.231): icmp_seq=10 ttl=57 time=1.10 ms
+
+--- nba.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+rtt min/avg/max/mdev = 1.078/1.168/1.752/0.195 ms

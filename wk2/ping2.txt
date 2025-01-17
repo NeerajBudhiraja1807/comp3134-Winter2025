@@ -1,0 +1,13 @@
+neerajbudhiraja@Neerajs-MacBook-Air ~ % ping 137.184.172.184
+PING 137.184.172.184 (137.184.172.184): 56 data bytes
+64 bytes from 137.184.172.184: icmp_seq=0 ttl=57 time=14.406 ms
+64 bytes from 137.184.172.184: icmp_seq=1 ttl=57 time=6.694 ms
+64 bytes from 137.184.172.184: icmp_seq=2 ttl=57 time=13.610 ms
+64 bytes from 137.184.172.184: icmp_seq=3 ttl=57 time=13.800 ms
+64 bytes from 137.184.172.184: icmp_seq=4 ttl=57 time=12.290 ms
+64 bytes from 137.184.172.184: icmp_seq=5 ttl=57 time=5.154 ms
+64 bytes from 137.184.172.184: icmp_seq=6 ttl=57 time=8.358 ms
+^C
+--- 137.184.172.184 ping statistics ---
+7 packets transmitted, 7 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 5.154/10.616/14.406/3.517 ms
