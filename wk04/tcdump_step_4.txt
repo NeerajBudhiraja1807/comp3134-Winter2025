@@ -1,0 +1,17 @@
+root@comp3134-Winter2025:~# sudo tcpdump -i any src 137.184.172.184 -c 10
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+04:38:54.311072 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 3335631392:3335631460, ack 1770463034, win 501, options [nop,nop,TS val 521431646 ecr 2128956784], length 68
+04:38:54.311275 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 68:104, ack 1, win 501, options [nop,nop,TS val 521431646 ecr 2128956784], length 36
+04:38:54.313118 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 104:212, ack 1, win 501, options [nop,nop,TS val 521431648 ecr 2128956784], length 108
+04:38:54.313308 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 212:376, ack 1, win 501, options [nop,nop,TS val 521431648 ecr 2128956784], length 164
+04:38:54.313373 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 376:444, ack 1, win 501, options [nop,nop,TS val 521431649 ecr 2128956784], length 68
+04:38:54.313419 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 444:480, ack 1, win 501, options [nop,nop,TS val 521431649 ecr 2128956784], length 36
+04:38:54.342411 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 444:480, ack 1, win 501, options [nop,nop,TS val 521431678 ecr 2128956784], length 36
+04:38:54.375096 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 212:444, ack 1, win 501, options [nop,nop,TS val 521431710 ecr 2128956844], length 232
+04:38:54.415300 eth0  Out IP comp3134-Winter2025.59604 > 67.207.67.3.domain: 46838+ [1au] PTR? 182.250.198.142.in-addr.arpa. (57)
+04:38:54.415405 eth0  Out IP comp3134-Winter2025.40414 > 67.207.67.3.domain: 13133+ [1au] PTR? 182.250.198.142.in-addr.arpa. (57)
+10 packets captured
+35 packets received by filter
+0 packets dropped by kernel

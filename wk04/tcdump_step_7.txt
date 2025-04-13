@@ -1,0 +1,24 @@
+root@comp3134-Winter2025:~# sudo tcpdump -r captured_output.pcap
+reading from file captured_output.pcap, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144
+Warning: interface names might be incorrect
+04:44:21.610627 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 3335638504:3335638572, ack 1770463830, win 501, options [nop,nop,TS val 521758946 ecr 2129284110], length 68
+04:44:21.610718 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 68:104, ack 1, win 501, options [nop,nop,TS val 521758946 ecr 2129284110], length 36
+04:44:21.612818 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 104:148, ack 1, win 501, options [nop,nop,TS val 521758948 ecr 2129284110], length 44
+04:44:21.612898 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 148:200, ack 1, win 501, options [nop,nop,TS val 521758948 ecr 2129284110], length 52
+04:44:21.612955 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 200:276, ack 1, win 501, options [nop,nop,TS val 521758948 ecr 2129284110], length 76
+04:44:21.613038 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 276:344, ack 1, win 501, options [nop,nop,TS val 521758948 ecr 2129284110], length 68
+04:44:21.613190 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 344:380, ack 1, win 501, options [nop,nop,TS val 521758948 ecr 2129284110], length 36
+04:44:21.613935 eth0  In  IP bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991 > comp3134-Winter2025.ssh: Flags [.], ack 0, win 2045, options [nop,nop,TS val 2129284131 ecr 521758938], length 0
+04:44:21.618406 eth0  In  IP bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991 > comp3134-Winter2025.ssh: Flags [.], ack 104, win 2046, options [nop,nop,TS val 2129284137 ecr 521758946], length 0
+04:44:21.620907 eth0  In  IP bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991 > comp3134-Winter2025.ssh: Flags [.], ack 148, win 2047, options [nop,nop,TS val 2129284139 ecr 521758948], length 0
+04:44:21.622431 eth0  In  IP bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991 > comp3134-Winter2025.ssh: Flags [.], ack 380, win 2044, options [nop,nop,TS val 2129284141 ecr 521758948], length 0
+04:44:22.624675 eth0  Out IP comp3134-Winter2025.ssh > 218.92.0.154.48758: Flags [P.], seq 2679946883:2679946963, ack 1080261472, win 503, options [nop,nop,TS val 1970464544 ecr 2952060248], length 80
+04:44:22.876347 eth0  In  IP 218.92.0.154.48758 > comp3134-Winter2025.ssh: Flags [P.], seq 1:97, ack 80, win 263, options [nop,nop,TS val 2952061241 ecr 1970464544], length 96
+04:44:22.876403 eth0  Out IP comp3134-Winter2025.ssh > 218.92.0.154.48758: Flags [.], ack 97, win 503, options [nop,nop,TS val 1970464796 ecr 2952061241], length 0
+04:44:24.735992 eth0  Out IP comp3134-Winter2025.ssh > 218.92.0.154.48758: Flags [P.], seq 80:160, ack 97, win 503, options [nop,nop,TS val 1970466655 ecr 2952061241], length 80
+04:44:24.987890 eth0  In  IP 218.92.0.154.48758 > comp3134-Winter2025.ssh: Flags [P.], seq 97:193, ack 160, win 263, options [nop,nop,TS val 2952061769 ecr 1970466655], length 96
+04:44:24.987951 eth0  Out IP comp3134-Winter2025.ssh > 218.92.0.154.48758: Flags [.], ack 193, win 503, options [nop,nop,TS val 1970466907 ecr 2952061769], length 0
+04:44:26.735847 eth0  In  IP ec2-35-180-30-239.eu-west-3.compute.amazonaws.com > comp3134-Winter2025: ICMP echo request, id 1, seq 24515, length 48
+04:44:26.735904 eth0  Out IP comp3134-Winter2025 > ec2-35-180-30-239.eu-west-3.compute.amazonaws.com: ICMP echo reply, id 1, seq 24515, length 48
+04:44:28.706872 eth0  Out IP comp3134-Winter2025.ssh > 218.92.0.154.48758: Flags [P.], seq 160:240, ack 193, win 503, options [nop,nop,TS val 1970470626 ecr 2952061769], length 80
+root@comp3134-Winter2025:~# 

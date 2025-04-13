@@ -1,0 +1,17 @@
+root@comp3134-Winter2025:~# sudo tcpdump -i any -c 10
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+04:33:05.609688 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 3335616712:3335616780, ack 1770458438, win 501, options [nop,nop,TS val 521082945 ecr 2128608095], length 68
+04:33:05.609966 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 68:104, ack 1, win 501, options [nop,nop,TS val 521082945 ecr 2128608095], length 36
+04:33:05.613194 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 104:212, ack 1, win 501, options [nop,nop,TS val 521082948 ecr 2128608095], length 108
+04:33:05.613271 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 212:248, ack 1, win 501, options [nop,nop,TS val 521082948 ecr 2128608095], length 36
+04:33:05.613331 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 248:300, ack 1, win 501, options [nop,nop,TS val 521082949 ecr 2128608095], length 52
+04:33:05.613388 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 300:376, ack 1, win 501, options [nop,nop,TS val 521082949 ecr 2128608095], length 76
+04:33:05.613444 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 376:444, ack 1, win 501, options [nop,nop,TS val 521082949 ecr 2128608095], length 68
+04:33:05.613493 eth0  Out IP comp3134-Winter2025.ssh > bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991: Flags [P.], seq 444:480, ack 1, win 501, options [nop,nop,TS val 521082949 ecr 2128608095], length 36
+04:33:05.622670 eth0  In  IP bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991 > comp3134-Winter2025.ssh: Flags [.], ack 68, win 2046, options [nop,nop,TS val 2128608115 ecr 521082945], length 0
+04:33:05.624033 eth0  In  IP bras-base-toroon4859w-grc-09-142-198-250-182.dsl.bell.ca.51991 > comp3134-Winter2025.ssh: Flags [.], ack 104, win 2047, options [nop,nop,TS val 2128608118 ecr 521082945], length 0
+10 packets captured
+54 packets received by filter
+0 packets dropped by kernel
